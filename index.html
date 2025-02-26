@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kings Tech Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Kings Tech Survey Form</h1>
+    <p id="description"> Thank You for taking your time help Us serve You better.</p>
+    <form id="survey-form">
+            <label for="name" id="name-label">Name
+              <input type="text" id="name" placeholder="Enter your name" required>
+          </label>
+            <label for="email" id="email-label">Email
+              <input type="email" id="email" placeholder="Enter your email" required>
+          </label>
+            <label for="number" id="number-label">Age (optional)
+              <input type="number" id="number" min="15" max="200" placeholder="Age" >
+          </label>
+            <label for="dropdown">Which describes your current position?
+            <select id="dropdown">
+              <option>Select an option</option>
+              <option>Students</option>
+              <option>Full Time Job</option>
+              <option>Part Time Job</option>
+              <option>Self Employed</option>
+              <option>Full time Learner</option>
+              <option>Prefer not to Say</option>
+              <option>Others</option>
+            </select>
+          </label>
+            <label>How would you recommend Kings Tech to people?</label>
+            <label><input type="radio"  name="recommendation" value="recommendation" />  Excellent </label>
+            <label><input type="radio"  name="recommendation" value="recommendation" />  Very Good</label>
+            <label><input type="radio"  name="recommendation" value="recommendation" />  Good</label>
+            <label><input type="radio"  name="recommendation" value="recommendation" />  Poor</label>
+            <label><input type="radio"  name="recommendation" value="recommendation" />  Not Sure</label>
+            <label id="help">How do you think Kings Tech can help you?</label>
+            <label><input type="checkbox" value="equipment"> Equipments/Tools</label>   
+            <label><input type="checkbox" value="front-end"> Front-End</label>
+            <label><input type="checkbox" value="back-end"> Back-End</label>
+            <label><input type="checkbox" value="full-stack"> Full Stack</label>
+            <label><input type="checkbox" value="data-analysis"> Data Analysis</label>
+            <label><input type="checkbox" value="data-science"> Data Science</label>
+            <label><input type="checkbox" value="languages"> Languages(Programming)</label>
+            <label id="comment">We accept more comments and contributions</label>
+            <label> <textarea placeholder="Enter your comment here..."></textarea> </label>
+            <label><button id="submit">Submit</button></label>
+    </form>
+  </body>
+</html>

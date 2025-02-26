@@ -1,0 +1,105 @@
+h1{
+    text-align: center;
+    font-family: Arial Narrow;
+    font-size: 300%;
+    padding-top: 10px;
+    margin-bottom: 2rex;
+}
+p{
+    text-align: center;
+    font-family: segoe UI;
+    font-size: large;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+body{
+    background-image: url(https://tinyurl.com/y7uam874);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: system-ui;
+}
+form{
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    border: 1px;
+    background-color: rgba(97, 97, 95, 0.24);
+    border-radius: 5px;
+}
+label{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+input{
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+#name-label, #email-label, #number-label{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+#name, #email, #number{
+    padding: 10px;
+    width: 95%;
+}
+#name-label{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#email-label{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+#number-label{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+#dropdown{
+    display: block;
+    padding: 10px;
+    width: 98%;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+input[type="radio"] {
+    margin: 5px 0;
+    display: inline-block;
+}
+input[type="checkbox"]{
+    margin: 5px 0;
+    display: inline-block;
+}
+#help{
+    margin-top: 10px;
+}
+#comment{
+    margin-top: 20px;
+}
+textarea{
+    width: 97%;
+    padding: 5px 2px 95px 8px;
+    text-align: left;
+    font-family: System-ui;
+    font-size: 20px;
+    border: none;
+}
+button{
+    margin-top: 20px;
+    width: 99%;
+    padding: 10px;
+    font-family: system-ui;
+    font-size: large;
+    background-color: rgb(49, 173, 163);
+    border-radius: 3px;
+    border: none;
+}
